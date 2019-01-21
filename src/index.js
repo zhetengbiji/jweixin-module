@@ -1,5 +1,4 @@
-!function(fn) {
-    var global = this
+!function(global, fn) {
     if ("object" === typeof exports && "object" === typeof module) {
         module.exports = fn(global)
     } else if ("function" === typeof define && (define.amd || define.cmd)) {
@@ -9,7 +8,7 @@
     } else {
         fn(global, true)
     }
-}(function(e, n) {
+}(window, function(e, n) {
     function i(n, i, t) {
         e.WeixinJSBridge ? WeixinJSBridge.invoke(n, o(i), function(e) {
             c(n, e, t)

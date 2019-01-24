@@ -19,8 +19,8 @@ https://unpkg.com/jweixin-module/out/index.js
 ## 使用
 
 ```js
-var wx = require('jweixin-module')
-wx.ready(function(){
+var jweixin = require('jweixin-module')
+jweixin.ready(function(){
     // TODO
 });
 ```

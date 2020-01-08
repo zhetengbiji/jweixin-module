@@ -13,7 +13,7 @@ npm install jweixin-module --save
 ### UMD
 
 ```http
-https://unpkg.com/jweixin-module/out/index.js
+https://unpkg.com/jweixin-module/lib/index.js
 ```
 
 ## 使用

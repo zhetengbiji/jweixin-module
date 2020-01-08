@@ -1,12 +1,9 @@
 {
     "name": "jweixin-module",
-    "version": "1.4.1",
+    "version": "1.6.0",
     "description": "微信JS-SDK",
-    "main": "out/index.js",
-    "scripts": {
-        "prepublish": "npm run build",
-        "build": "node build"
-    },
+    "main": "lib/index.js",
+    "scripts": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zhetengbiji/jweixin-module.git"
@@ -25,8 +22,5 @@
         "url": "https://github.com/zhetengbiji/jweixin-module/issues"
     },
     "homepage": "https://github.com/zhetengbiji/jweixin-module#readme",
-    "devDependencies": {
-        "textfile": "^1.2.0",
-        "uglify-js": "^3.4.9"
-    }
+    "devDependencies": {}
 }
